@@ -1,0 +1,43 @@
+/* Footer */
+#footer {
+  background: #00a99d;
+  @media (min-width: 1024px) {
+    background: linear-gradient(to left, rgba(0, 169, 157, 0.3), rgba(0, 169, 157, 1), rgba(0, 169, 157, 1)),
+      url(../../img/fondo/contacto.jpeg) -50% -25% no-repeat fixed;
+  }
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .info-soporte {
+    display: flex;
+    align-items: center;
+    color: #048279;
+    margin-top: 4vh;
+    .info-icon {
+      margin-right: 2vh;
+      i {
+        font-size: 5em;
+      }
+    }
+    .info-text {
+      .info-numero {
+        font-size: 1.5em;
+        font-weight: 700;
+      }
+      .info-des {
+        font-size: 1.2em;
+        font-weight: 600;
+        line-height: 1.5;
+      }
+    }
+  }
+  .copy-box {
+    width: 100%;
+    height: 215px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.footer-copyright {
+  padding: 14px;
+}
