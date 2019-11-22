@@ -2201,7 +2201,7 @@ video.responsive-video {
   overflow: hidden;
   height: 100vh;
   width: 100%;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.5);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3395,14 +3395,15 @@ nav {
 
 .navbar-fixed {
   position: relative;
-  height: 56px;
+  /* height: $navbar-height-mobile; */
+  height: 0px !important;
   z-index: 997; }
   .navbar-fixed nav {
     position: fixed; }
 
 @media only screen and (min-width: 601px) {
   nav.nav-extended .nav-wrapper {
-    min-height: 64px; }
+    /* min-height: $navbar-height; */ }
   nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
     height: 64px;
     line-height: 64px; }
@@ -7323,14 +7324,14 @@ input[type=range]::-ms-thumb {
 /* Footer */
 #footer {
   background: #00a99d;
-  padding-top: 100px;
-  padding-bottom: 100px; }
+  padding-top: 70px;
+  padding-bottom: 70px; }
   @media (min-width: 1024px) {
     #footer {
-      background: -webkit-gradient(linear, right top, left top, from(rgba(0, 169, 157, 0.3)), color-stop(#00a99d), to(#00a99d)), url(../../img/fondo/contacto.jpeg) -50% -25% no-repeat fixed;
-      background: -webkit-linear-gradient(right, rgba(0, 169, 157, 0.3), #00a99d, #00a99d), url(../../img/fondo/contacto.jpeg) -50% -25% no-repeat fixed;
-      background: -o-linear-gradient(right, rgba(0, 169, 157, 0.3), #00a99d, #00a99d), url(../../img/fondo/contacto.jpeg) -50% -25% no-repeat fixed;
-      background: linear-gradient(to left, rgba(0, 169, 157, 0.3), #00a99d, #00a99d), url(../../img/fondo/contacto.jpeg) -50% -25% no-repeat fixed; } }
+      background: -webkit-gradient(linear, right top, left top, from(rgba(0, 169, 157, 0.3)), color-stop(#00a99d), to(#00a99d)), url(../img/fondo/contacto.jpeg) -50% -25% no-repeat fixed;
+      background: -webkit-linear-gradient(right, rgba(0, 169, 157, 0.3), #00a99d, #00a99d), url(../img/fondo/contacto.jpeg) -50% -25% no-repeat fixed;
+      background: -o-linear-gradient(right, rgba(0, 169, 157, 0.3), #00a99d, #00a99d), url(../img/fondo/contacto.jpeg) -50% -25% no-repeat fixed;
+      background: linear-gradient(to left, rgba(0, 169, 157, 0.3), #00a99d, #00a99d), url(../img/fondo/contacto.jpeg) -50% -25% no-repeat fixed; } }
   #footer .info-soporte {
     display: -webkit-box;
     display: -ms-flexbox;

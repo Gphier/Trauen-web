@@ -187,7 +187,8 @@ nav {
 // Fixed Navbar
 .navbar-fixed {
   position: relative;
-  height: $navbar-height-mobile;
+  /* height: $navbar-height-mobile; */
+  height: 0px !important;
   z-index: 997;
 
   nav {
@@ -196,7 +197,7 @@ nav {
 }
 @media #{$medium-and-up} {
   nav.nav-extended .nav-wrapper {
-    min-height: $navbar-height;
+    /* min-height: $navbar-height; */
   }
   nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
     height: $navbar-height;
