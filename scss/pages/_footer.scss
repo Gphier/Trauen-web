@@ -3,10 +3,10 @@
   background: #00a99d;
   @media (min-width: 1024px) {
     background: linear-gradient(to left, rgba(0, 169, 157, 0.3), rgba(0, 169, 157, 1), rgba(0, 169, 157, 1)),
-      url(../../img/fondo/contacto.jpeg) -50% -25% no-repeat fixed;
+      url(../img/fondo/contacto.jpeg) -50% -25% no-repeat fixed;
   }
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   .info-soporte {
     display: flex;
     align-items: center;
